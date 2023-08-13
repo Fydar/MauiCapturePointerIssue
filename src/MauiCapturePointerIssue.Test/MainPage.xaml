@@ -5,10 +5,6 @@
              x:Class="MauiCapturePointerIssue.Test.MainPage"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
 
-    <BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html">
-        <BlazorWebView.RootComponents>
-            <RootComponent Selector="#app" ComponentType="{x:Type local:Main}" />
-        </BlazorWebView.RootComponents>
-    </BlazorWebView>
+  <WebView Source="https://fydar.github.io/MauiCapturePointerIssue/"></WebView>
 
 </ContentPage>
